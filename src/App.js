@@ -25,7 +25,7 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      tickerSymbol: 'BARB-02',
+      tickerSymbol: window.location.pathname.replace('/', ''),
       owner: '',
       STOAddress: '',
       tokenDetails: null,
